@@ -1,5 +1,6 @@
 # csTextHightLight
 Hightlight Text using jQuery
+
 csTextHightLight is jQuery plugin to highlight multiple words in specific element.
 
 # Basic  functionality 
