@@ -8,7 +8,7 @@ you can pass array of words into `list` parametter
 ```html
 <script>
  $(function () {
-     $('body').csHightLight({  
+     $('body').csTextHightLight({  
       list: ['simply', 'by', 'readable']
     });
  });
@@ -19,7 +19,7 @@ you can pass array of words into `list` parametter
 ```html
 <script>
  $(function () {
-     $('body').csHightLight({
+     $('body').csTextHightLight({
      list: ['simply', 'by', 'readable'],
      color:'#fff',
      class:'anotherClass',
@@ -29,22 +29,22 @@ you can pass array of words into `list` parametter
  </script>
 ```
 
-# destory csHightLight
+# destory csTextHightLight
 ```html
 <script>
  $(function () {
-     $('body').csHightLight('destroy');
+     $('body').csTextHightLight('destroy');
  });
  </script>
 ```
 
-You have to destroy csHightLight first if you want to initialize again on same element.
+You have to destroy csTextHightLight first if you want to initialize again on same element.
 For exp. 
 ```html
 <script>
  $(function () {
-     $('body').csHightLight('destroy');
-      $('body').csHightLight({  
+     $('body').csTextHightLight('destroy');
+      $('body').csTextHightLight({  
        list: ['simply', 'by', 'readable']
     });
  });
